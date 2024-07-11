@@ -1,3 +1,368 @@
-p{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+.nav-head{
+   color: #0D1321;
+   margin-left: 100px;
+   
+   
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top:20px;
+}
+.btn{
+    margin-right: 100px;
+    width:180px;
+    height: 30px;
+    font-family: monospace;
+    font-size:15px ;
+    border-radius: 6px;
+}
+
+#div1{
+    background-image: url(./assets/Hero-bg.png);
+    height:600px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    background-blend-mode: darken;
+    
+
+}
+.pic{
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top:15px;
+
+}
+
+.h1{
+    font-weight:bold;
+    color: #0D1321;
+    font-size:35px;
+    align-items: center;
+
+}
+.par{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+
+}
+.kala{
+
+ display: block;
+ margin: auto;
+ margin-top: 30px;
+ background-color: #0D1321;
+ color: white;
+ padding: 13px 30px;
+ font-family: monospace;
+ border-radius: 8px;
+
+}
+
+.h2{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+    font-family: monospace;
+    font-size: bold;
+    font-weight:bolder;
+
+}
+.boss-con{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin:100px auto;
+    
+
+}
+.pic2{
+    max-width: 250px;
+    float:right
+
+}
+.con{
+    width: 946px;
+    height: 100px;
+    padding: 10%;
+}
+.con2{
+    width: 946px;
+    height: 100px;
+    padding: 10%;
+} 
+
+
+
+
+.con3{
+    width: 946px;
+    height: 100px;
+    padding: 10%;
+    
+}
+.pic3{
+    max-width: 250px;
+    float:left;
+    
+
+}
+.pic4{
+    max-width:250px ;
+    float: right;
+    margin-top:12%;
+}
+
+
+
+
+.pera-pic2{
+    width: 477px;
+    height: 219px;
+}
+.ekip{
+    margin-top: 10px;
+    font-size:14px;
+}
+.ekib{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-color: rgb(122, 121, 121);
+    color: #0D1321;
+    font-family: monospace;
+    font-size:16px;
+    margin-top: 20px;
+}
+.makip{
+    margin-top: 10px;
+    font-size:14px;
+}
+.makib{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-color: rgb(122, 121, 121);
+    color: #0D1321;
+    font-family: monospace;
+    font-size:16px;
+    margin-top: 20px;
+}
+.pera-pic3{
+   float: right;
+    padding: 10px;
+   
+}
+
+
+------------------
+
+.pera-pic4{
+    width: 450px;
+    height: 219px;
+
+}
+.bapkip{
+    margin-top: 10px;
+    font-size:14px;
+}
+.bapkib{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-color: rgb(122, 121, 121);
+    color: #0D1321;
+    font-family: monospace;
+    font-size:16px;
+    margin-top: 20px;
+}
+/* .ins{
+    padding-top: 25%;
+    display:flex;
+    text-align:center ;
+    justify-content: center;
+    margin-left:100px ;
+} */
+
+.new-sec{
+    padding: auto;
+    margin-top:30%;
+}
+
+.ins{
+    font-family: monospace;
+    color: #0D1321;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing:0%;
+}
+.ins-p{
+    text-align: center;
+    color: #0D1321;
+    margin-top: 10px;
+
+}
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.frame-2{
+    border-radius: 10px;
+}
+.header{
+    font-family: monospace;
+    color: #0D1321;
+    text-align:center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing:0%;
+    margin-top: 5%;
+}
+.head-par{
+    text-align:center;
+    font-family: monospace;
+    color: #0D1321;
+    margin: 30px;
+    font-size:16px;
+}
+
+.real{
+    background-color: #fbedea;
+
+    
+    display:inline-block;
+    
+    width: 200px;
+    height: 180px;
+    
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: top;
+
+}
+.bar{
+    background-color:#eff4ff;
+    display:inline-block;
+    
+    width: 200px;
+    height: 180px;
+    
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: top;
+
+}
+.atm{
+    background-color:#fffde6;
+    display:inline-block;
+     width: 200px;
+    height: 180px;
+    padding: 40px;
+    margin: auto;
+    margin-left:30px;
+    margin-top: 10%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.chel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.footer-pic{
+    background-image: url(./assets/handshake.jpg);
+    width: 980px;
+    height: 280px;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+     
+    color: white;
+    text-align: center;
+    margin:auto;
+    margin-top:5%;
+    
+    border-radius: 16px;
+
+}
+.lsd{
+    width: 400px;
+    height: 10px;
+    display: inline;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+.gnj{
+    width:120px;
+    height: 57px;
+    display:inline;
+    align-items:center;
+    justify-content: center;
+    margin-top: 15%;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    
+
+}
+.fin{
+    margin-top:5px;
+  
+}
+    
+   
+.yes{
+    display: inline;
+    justify-content: first baseline;
+    margin-top: 10px;
+    width: 6%;
+    margin-top: 10%;
+
+}
+.at-last{
+    font-size: px;
+    display: inline;
+    align-items:start;
+    justify-content: start;
 }
